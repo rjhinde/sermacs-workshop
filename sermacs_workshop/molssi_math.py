@@ -5,6 +5,46 @@ Sample repository for MolSSI workshop
 Handles the primary functions
 """
 
+def mean(num_list):
+	"""
+	description -- computes the mean of a list.
+	Parameters
+	----------
+	num_list: list
+		A list of numbers whose mean is to be computed
+	
+	Returns
+	-------
+	list_mean: float
+		Mean of the list of numbers
+	"""
+	
+	list_mean = sum(num_list)/len(num_list)
+	
+	return list_mean
+
+def mean2(num_list):
+	"""
+	description -- computes the mean of a list.
+	Parameters
+	----------
+	num_list: list
+		A list of numbers whose mean is to be computed
+	
+	Returns
+	-------
+	list_mean: float
+		Mean of the list of numbers
+	"""
+	
+	s = 0
+	
+	for i in range(len(num_list)):
+		s = s + num_list[i]
+	
+	list_mean = s/len(num_list)
+	
+	return list_mean
 
 def canvas(with_attribution=True):
     """
