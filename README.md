@@ -7,6 +7,10 @@ sermacs_workshop
 
 Sample repository for MolSSI workshop
 
+Adding a line to the README.md file
+
+Adding a second line
+
 ### Copyright
 
 Copyright (c) 2018, Robert Hinde
