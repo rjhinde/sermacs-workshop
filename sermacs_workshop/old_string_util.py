@@ -23,23 +23,24 @@ def title_case(sentence):
     >>> title_case('This iS a sampLe.')
     	This Is A Sample.
     """
-
+    
     # error checking
-
+    
     if not isinstance(sentence, str):
-        raise TypeError('Input to title_case must be string')
-
+    	raise TypeError('Input to title_case must be string')
+    
     # convert entire sentence to lower case then split it into words
-
+    
     words = (sentence.lower()).split()
-
+    
     # capitalize each word
-
+    
     for i in range(len(words)):
-        words[i] = words[i].capitalize()
-
+    	words[i] = words[i].capitalize()
+    
     # put the words back together into a sentence, separating them with spaces
-
+    
     result = ' '.join(words)
-
+    
     return result
+    
